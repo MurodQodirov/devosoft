@@ -217,6 +217,12 @@ body{
     height: 40px;
     line-height: 38px;
 }
+@media (max-width: 600px) {
+    .fables-transparent {
+      margin-top: 0 !important;
+    }
+  }
+
 .lang-dropdown{
     top: 4px !important;
 }
@@ -2572,6 +2578,11 @@ body{
 }
 /*********************End  Index **************************************/
 
+@media (max-width: 992px) {
+    .contact-page {
+      display: none !important;
+    }
+  }
 
 
 
